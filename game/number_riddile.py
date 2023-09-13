@@ -3,8 +3,6 @@ import random
 
 # 开始游戏
 def play():
-    # 提示
-    print("\nTips: 游戏过程中输入exit/quit/退出，即可退出游戏~")
     # 声明成全局变量
     global target_numbder
     global play_count
@@ -21,6 +19,8 @@ def play():
     judgement(content)
 
 # 判断输入内容
+
+
 def judgement(content):
     global play_count
     play_count = play_count + 1
@@ -51,6 +51,8 @@ def judgement(content):
         again_input("只能输入数字哦~")
 
 # 提示用户再次输入
+
+
 def again_input(tip):
     print(tip)
     content = input("\n请再次输入100(含)以内的任意正整数: ")

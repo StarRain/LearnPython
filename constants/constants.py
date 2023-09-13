@@ -1,0 +1,1 @@
+quit_tip = "\nTips: 游戏过程中输入exit/quit/退出，即可退出游戏~";
